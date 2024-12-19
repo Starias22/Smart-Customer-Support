@@ -48,4 +48,5 @@ ENV JAVA_HOME=/usr/lib/jvm/java-17-openjdk-amd64
 # Upgrade pip and install required Python packages
 RUN pip install --upgrade pip && \
     pip install apache-airflow-providers-apache-spark  chromadb sentence-transformers
+    
 
